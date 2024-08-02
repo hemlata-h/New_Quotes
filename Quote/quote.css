@@ -1,0 +1,121 @@
+.outterBox{
+ display: flex;
+ justify-content: center;
+ background-color: #8491f0;
+ align-items: center;
+ height: 100vh;
+ width: 100%;   
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h1::after{
+    content: '';
+    width: 80px;
+    height: 4px;
+    background: #3399ff;
+    position: absolute;
+    bottom: -10px;
+    border-radius: 5px;
+
+}
+u{
+    /* color: #4361ee; */
+    /* width: 5px; */
+    /* background: linear-gradient(white, #4361ee, white); */
+}
+.mainContent{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 2rem;
+    width:33rem;
+    height:20rem;
+ /* height:16rem; */
+}
+.center{
+    /* margin-bottom: 2rem; */
+    display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.content{
+    font-size: 20px;
+}
+.content::after, .content::before{
+    content: '"';
+}
+.bottom{
+    margin: 2rem;
+}
+.New{
+    height: 3rem;
+    width: 9rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #3399ff;
+  color:white;
+ }
+ .tweet{
+  margin-left:9px;
+  height: 3rem;
+    width: 9rem;
+    border: none;
+    border-radius: 50px;
+  border:2px solid #3399ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+ }
+.bottom{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 3px;
+}
+#writer{
+    /* display:flex;
+    justify-content:end;
+    align-items:center; */
+    float: right;
+    margin-top: 1rem;
+    margin-right:2rem;
+    /* margin-bottom:; */
+    position: relative;
+    /* border:2px solid black; */
+    /* width:6rem; */
+   }
+   #writer::before{
+       /* left: 330px; */
+    /* top:18px;
+       right:7rem; */
+       content: '';
+       width: 25px;
+       height: 2px;
+       background: #3399ff;
+       position: absolute;
+       top: 50%;
+       left: -30px;
+       /* left: -10px; */
+       border-radius: 5px;
+   }
+   button{
+    /* margin-top:3rem;
+    margin-bottom: 2rem; */
+    /* align-items:center; */
+    /* margin-left:4rem; */
+    /* margin:5px; */
+    cursor: pointer;
+    
+   }
+   
